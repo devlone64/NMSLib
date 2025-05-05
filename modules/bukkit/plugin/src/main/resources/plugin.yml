@@ -1,0 +1,12 @@
+name: NMSLib
+main: dev.lone64.NMSLib.Main
+author: lone64
+version: '@version@'
+api-version: '1.13'
+commands:
+  name:
+    description: 아이템의 이름을 출력합니다.
+  itemnbt:
+    description: 아이템의 nbt를 관리합니다.
+  entitynbt:
+    description: 엔티티의 nbt를 관리합니다.
