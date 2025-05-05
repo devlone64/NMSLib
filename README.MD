@@ -3,18 +3,17 @@ NMSLib은 다양한 버전에서 사용 가능한 Native Minecraft Server 라이
 NMSLib은 현재 **1.12 ~ 1.21.5**까지 지원합니다.<br>
 
 ## NMSLib of Comment
-NMSLib의 일부 기능들은 테스트를 하지 않아서 작동이 되지 않을 수 있습니다.
+NMSLib의 일부 기능들은 테스트를 하지 않아서 작동이 되지 않을 수 있습니다.<br>
 
 ## NMSLib of Version
 NMSLib은 현재 마인크래프트 버전으로 **1.12 ~ 1.21.5**까지 지원합니다.<br>
-새로운 마인크래프트 버전들이 나오면 그에 맞춰 업데이트를 할 예정입니다.
+새로운 마인크래프트 버전들이 나오면 그에 맞춰 업데이트를 할 예정입니다.<br>
 
 ## NMSLib of Dependency
-**Groovy**
+**Gradle**
 ```groovy
-compileOnly("dev.lone64:NMSLib:1.0.0")
+compileOnly "dev.lone64:NMSLib:1.0.0"
 ```
-<br>
 
 **Maven**
 ```xml
@@ -24,6 +23,7 @@ compileOnly("dev.lone64:NMSLib:1.0.0")
     <version>1.0.0</version>
 </dependency>
 ```
+<br>
 
 ## NMSLib of Example
 ```java
