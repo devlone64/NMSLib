@@ -9,6 +9,22 @@ NMSLib의 일부 기능들은 테스트를 하지 않아서 작동이 되지 않
 NMSLib은 현재 마인크래프트 버전으로 **1.12 ~ 1.21.5**까지 지원합니다.<br>
 새로운 마인크래프트 버전들이 나오면 그에 맞춰 업데이트를 할 예정입니다.
 
+## NMSLib of Dependency
+**Groovy**
+```groovy
+compileOnly("dev.lone64:NMSLib:1.0.0")
+```
+<br>
+
+**Maven**
+```xml
+<dependency>
+    <groupId>dev.lone64</groupId>
+    <artifactId>NMSLib</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 ## NMSLib of Example
 ```java
 package dev.lone64.Example;

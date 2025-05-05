@@ -55,11 +55,13 @@ publishing {
     repositories {
         maven("https://repo.repsy.io/mvn/lone64/everything/") {
             credentials {
-                val mavenUsername: String by project
-                val mavenPassword: String by project
-                username = mavenUsername
-                password = mavenPassword
+                username = properties["mavenUsername"] as String
+                password = properties["mavenPassword"] as String
             }
         }
+    }
+
+    dependencies {
+        compileOnly(project(":modules:bukkit:nms:common"))
     }
 }
