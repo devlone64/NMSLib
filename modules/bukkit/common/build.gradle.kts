@@ -60,8 +60,4 @@ publishing {
             }
         }
     }
-
-    dependencies {
-        compileOnly(project(":modules:bukkit:nms:common"))
-    }
 }
